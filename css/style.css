@@ -1,0 +1,40 @@
+* { box-sizing: border-box; }
+
+body {
+  font-family: sans-serif;
+}
+
+/* ---- grid ---- */
+
+.grid {
+  background: #DDD; 
+  margin: 10px;
+  display: block;
+  margin: auto;
+  margin: 0 auto;
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .grid-item ---- */
+
+.grid-item {
+  float: left;
+  width: 328px;
+  height: 400px;
+  background: #0D8;
+  border: 2px solid #333;
+  border-color: hsla(0, 0%, 0%, 0.7);
+  margin-bottom: 20px;
+}
+
+.masonry_container{
+  max-width: 900px;
+  display: block;
+    margin: auto;
+}
